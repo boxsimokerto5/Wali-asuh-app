@@ -50,11 +50,13 @@ jobs:
       - name: Build Android APK (Debug)
         run: |
           cd android
+          chmod +x gradlew
           ./gradlew assembleDebug
 
       - name: Build Android AAB (Release)
         run: |
           cd android
+          chmod +x gradlew
           ./gradlew bundleRelease
 
       - name: Upload APK
