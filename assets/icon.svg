@@ -1,0 +1,12 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" rx="220" fill="url(#paint0_linear)"/>
+  <path d="M512 820C512 820 180 620 180 380C180 247.452 287.452 140 420 140C462.834 140 502.435 151.217 536.435 170.783C536.435 170.783 512 195.217 512 230C512 264.783 536.435 289.217 536.435 289.217C502.435 308.783 462.834 320 420 320C386.863 320 360 346.863 360 380C360 413.137 386.863 440 420 440C453.137 440 480 413.137 480 380C480 346.863 453.137 320 420 320V140C552.548 140 660 247.452 660 380C660 620 328 820 328 820" fill="white" fill-opacity="0.2"/>
+  <text x="512" y="580" font-family="Arial, sans-serif" font-size="280" font-weight="900" fill="white" text-anchor="middle">SRMA</text>
+  <text x="512" y="780" font-family="Arial, sans-serif" font-size="140" font-weight="900" fill="white" fill-opacity="0.8" text-anchor="middle">24 KEDIRI</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -2,7 +2,23 @@
 
 Aplikasi ini telah dikonfigurasi menggunakan **Capacitor** untuk diubah menjadi aplikasi Android asli.
 
-## Persiapan GitHub Actions
+## Perbaikan Kendala Build (Node.js 22)
+
+Jika Anda melihat error `The Capacitor CLI requires NodeJS >=22.0.0`, saya telah memperbarui file `.github/workflows/android-build.yml` untuk menggunakan **Node.js 22**. Silakan lakukan `push` ulang untuk mencoba kembali.
+
+## Aset Ikon & Splash Screen
+
+Saya telah menyediakan aset dasar di folder `/assets`:
+*   `icon.svg`: Ikon aplikasi.
+*   `splash.svg`: Layar pembuka (Splash Screen).
+
+### Cara Menghasilkan Ikon untuk Android:
+Gunakan tool `@capacitor/assets` untuk menghasilkan semua ukuran ikon secara otomatis:
+
+1.  Instal tool: `npm install @capacitor/assets --save-dev`
+2.  Jalankan perintah: `npx capacitor-assets generate --android`
+
+Ini akan secara otomatis memperbarui folder `android/app/src/main/res` dengan ikon dan splash screen yang sesuai.
 
 File workflow telah dibuat di `.github/workflows/android-build.yml`.
 Setiap kali Anda melakukan `push` ke branch `main`, GitHub akan secara otomatis membangun:
